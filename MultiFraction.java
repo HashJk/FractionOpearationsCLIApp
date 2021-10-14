@@ -3,9 +3,11 @@ This program created by Hashim Khubrani twitter: @HJKCS2002
 ##########################################################*/
 import java.util.Scanner;
 public class MultiFraction {
+    
         /*############################################
             This Class for Multipliction Opearation.
          ############################################*/
+    
     Scanner reader = new Scanner(System.in);
     private double noem;
     private double denom = 1;

@@ -4,12 +4,14 @@ This program created by Hashim Khubrani twitter: @HJKCS2002
 import java.util.Scanner;
 public class TestFraction {
 
-    /*###########################################//####### We must Develping is: 1- simplifaction ########
+    /*###########################################
         This program for Fraction Opearations: 
         Multi = Multiplication. 
         Div = Division. 
         Add = Addition. 
         Sub = Subtraction.
+        Noem = Numerator.
+        denom = Denominator.
      ############################################*/
     
     public static void main(String[] args) {

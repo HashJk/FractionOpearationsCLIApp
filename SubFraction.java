@@ -7,6 +7,7 @@ public class SubFraction {
     /*#######################################
        This Class for Subtration Opearation.
      ########################################*/
+    
     Scanner reader = new Scanner(System.in);
     private double noem;
     private double denom = 1;

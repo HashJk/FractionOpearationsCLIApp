@@ -7,6 +7,7 @@ public class DivFraction {
     /*#######################################
         This Class for Division Opearation.
      ########################################*/
+    
     Scanner reader = new Scanner(System.in);
     private double noem;
     private double denom = 1;

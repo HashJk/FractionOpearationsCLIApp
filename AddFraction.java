@@ -7,6 +7,7 @@ public class AddFraction {
         /*#######################################
              This Class for Addition Opearation.
          ########################################*/
+    
     Scanner reader = new Scanner(System.in);
     private double noem;
     private double denom = 1;
