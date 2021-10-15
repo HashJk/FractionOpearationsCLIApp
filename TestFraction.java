@@ -34,7 +34,7 @@ public class TestFraction {
         DivFraction DivFractionObject2 = new DivFraction();
         
         System.out.println("####This program created by Hashim Khubrani twitter: @HJKCS2002####");
-        System.out.print("Enter type of Calc Proccess: 'Multi' or 'Add' or 'Sub' or 'Div': ");
+        System.out.print("Enter type of Calc Process: 'Multi' or 'Add' or 'Sub' or 'Div': ");
         String choiceProccess = reader.next();
     
 /*#################################
@@ -42,11 +42,11 @@ public class TestFraction {
 ###################################*/
                 
             if (choiceProccess.equals("Multi")){
-                System.out.print("Enter First Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter First Fraction as follows 'Enter Numerator  then Denominator' : ");
                 MultiFractionObject1.setNoem(reader.nextDouble());
                 MultiFractionObject1.setdenom(reader.nextDouble());
                 
-                System.out.print("Enter Seconed Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter Second  Fraction as follows 'Enter Numerator  then Denominator' : ");
                 MultiFractionObject2.setNoem(reader.nextDouble());
                 MultiFractionObject2.setdenom(reader.nextDouble());
 
@@ -64,11 +64,11 @@ public class TestFraction {
 ###################################*/
             
             else if (choiceProccess.equals("Div")){
-                System.out.print("Enter First Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter First Fraction as follows 'Enter Numerator  then Denominator' : ");
                 DivFractionObject1.setNoem(reader.nextDouble());
                 DivFractionObject1.setdenom(reader.nextDouble());
 
-                System.out.print("Enter Seconed Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter Second  Fraction as follows 'Enter Numerator  then Denominator' : ");
                 DivFractionObject2.setNoem(reader.nextDouble());
                 DivFractionObject2.setdenom(reader.nextDouble());
 
@@ -85,11 +85,11 @@ public class TestFraction {
 ###################################*/
             
             else if (choiceProccess.equals("Add")){
-                System.out.print("Enter First Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter First Fraction as follows 'Enter Numerator  then Denominator' : ");
                 AddFractionObject1.setNoem(reader.nextDouble());
                 AddFractionObject1.setdenom(reader.nextDouble());
 
-                System.out.print("Enter Seconed Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter Second  Fraction as follows 'Enter Numerator  then Denominator' : ");
                 AddFractionObject2.setNoem(reader.nextDouble());
                 AddFractionObject2.setdenom(reader.nextDouble());
 
@@ -106,11 +106,11 @@ public class TestFraction {
 ###################################*/
             
             else if (choiceProccess.equals("Sub")){
-                System.out.print("Enter First Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter First Fraction as follows 'Enter Numerator  then Denominator' : ");
                 SubFractionObject1.setNoem(reader.nextDouble());
                 SubFractionObject1.setdenom(reader.nextDouble());
 
-                System.out.print("Enter Seconed Fraction as follwos 'Enter Numeratror then Denominator' : ");
+                System.out.print("Enter Second  Fraction as follows 'Enter Numerator  then Denominator' : ");
                 SubFractionObject2.setNoem(reader.nextDouble());
                 SubFractionObject2.setdenom(reader.nextDouble());
 
